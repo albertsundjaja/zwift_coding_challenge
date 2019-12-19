@@ -6,6 +6,7 @@ Clone this repository
 
 ```
 git clone https://github.com/albertsundjaja/zwift_coding_challenge
+cd zwift_coding_challenge
 ```
 
 initialize and pull the react app submodule
@@ -19,6 +20,8 @@ Do NPM install for this project
 ```
 npm install
 ```
+
+*note* sometimes npm install stucks, if it does, try deleting `package-lock.json` and do another `npm install`
 
 Run the node server
 
