@@ -7,8 +7,6 @@ const app = express();
 //TODO remove cors, as this is for easier testing purpose only
 app.use(cors());
 
-console.log(path.join(__dirname, '../', 'zwift_coding_challenge/build'));
-
 // Serve the static files from the React app
 app.use(express.static(path.join(__dirname, '../', 'zwift_coding_challenge_react/build')));
 app.get("/", (req, res, next) => {
