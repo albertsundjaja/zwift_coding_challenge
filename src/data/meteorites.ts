@@ -11,7 +11,7 @@ jsonData.forEach((meteorite:any) => {
     }
     // set mass of meteorite to zero when it has no mass
     if (!meteorite['mass']) {
-        meteorite['mass'] = 0;
+        meteorite['mass'] = "0";
     }
 });
 

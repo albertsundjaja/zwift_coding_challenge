@@ -9,7 +9,7 @@ app.use(cors());
 
 // Serve the static files from the React app
 app.use(express.static(path.join(__dirname, '../', 'zwift_coding_challenge_react/build')));
-app.get("/", (req, res, next) => {
+app.get("/react", (req, res, next) => {
     res.sendFile(path.join(__dirname, '../', 'zwift_coding_challenge_react/build', 'index.html'));
 });
 
