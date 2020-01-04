@@ -9,7 +9,7 @@ git clone https://github.com/albertsundjaja/zwift_coding_challenge
 cd zwift_coding_challenge
 ```
 
-initialize and pull the react app submodule
+initialize and pull the react and vue app submodule
 
 ```
 git submodule update --init --recursive
@@ -29,11 +29,29 @@ Run the node server
 npm run start
 ```
 
+##### note 
+by default the node server will serve the vue frontend app,
+to change it to react, we need to set the environment variable `FRONTEND`
+
+```
+// windows
+set FRONTEND=react
+npm run start
+```
+
+```
+// mac / linux
+FRONTEND=react npm run start
+```
+
 Open your browser and navigate to
 
 ```
 http://localhost:8080
 ```
+
+**note** when switching between vue and react, sometimes the browser will cache the files.
+Thus, when switching be sure to empty cache and reload
 
 ### Notes
 
