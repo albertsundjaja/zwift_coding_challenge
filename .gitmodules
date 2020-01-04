@@ -1,3 +1,6 @@
 [submodule "zwift_coding_challenge_react"]
 	path = zwift_coding_challenge_react
 	url = https://github.com/albertsundjaja/zwift_coding_challenge_react.git
+[submodule "zwift_coding_challenge_vue"]
+	path = zwift_coding_challenge_vue
+	url = https://github.com/albertsundjaja/zwift_coding_challenge_vue.git
